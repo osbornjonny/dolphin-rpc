@@ -2,16 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<groupId>dolphin</groupId>
 	<artifactId>dolphin-rpc</artifactId>
 	<name>Dolphin-RPC</name>
 	<packaging>jar</packaging>
 	<version>1.0-SNAPSHOT</version>
 	
-	<parent>
-		<groupId>com.showjoy</groupId>
-		<artifactId>showjoy-parent</artifactId>
-		<version>1.3.1</version>
-	</parent>
+
 
 	<properties>
 		<java-version>1.7</java-version>
@@ -19,12 +16,6 @@
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 
-	<scm>
-		<url>http://git.showjoy.net/jiujie/dolphin-rpc.git</url>
-		<connection>scm:git:http://git.showjoy.net/jiujie/dolphin-rpc.git</connection>
-		<developerConnection>scm:git:http://git.showjoy.net/jiujie/dolphin-rpc.git</developerConnection>
-		<tag>1.0.x</tag>
-	</scm>
 
 	<dependencies>
 		<dependency>
